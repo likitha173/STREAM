@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { useEffect, useState } from 'react';
 import { signIn } from 'next-auth/react';
-import Lottie from "react-lottie"; // Import the Lottie library
+import Lottie from 'react-lottie'; // Import the Lottie library
 
 export default function Home() {
   const [animationData, setAnimationData] = useState(null);

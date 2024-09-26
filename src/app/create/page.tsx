@@ -17,7 +17,7 @@ const CreatePage = async (props: Props) => {
       </h1>
       <div className="flex p-4 mt-5 border-none text-xl">
         <h2>
-        Seamlessly transform your study materials into interactive video lessons and quizzes. Stream leverages YouTube's vast library to deliver tailored educational content based on your specific units or text inputs.        </h2>
+        Seamlessly transform your study materials into interactive video lessons and quizzes. Stream leverages YouTube vast library to deliver tailored educational content based on your specific units or text inputs.</h2>
       </div>
 
       <CreateCourseForm />
