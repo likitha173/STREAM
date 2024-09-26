@@ -73,7 +73,7 @@ export default function Home() {
             <div className="flex flex-col items-center text-center">
               <Image src="/search-icon.jpeg" alt="Search" width={150} height={150} />
               <h3 className="text-xl font-semibold mt-4">Search for Topics</h3>
-              <p className="mt-2">Enter the unit or topic you are interested in, and we'll find relevant videos for you.</p>
+              <p className="mt-2">Enter the unit or topic you are interested in, and we will find relevant videos for you.</p>
             </div>
             <div className="flex flex-col items-center text-center">
               <Image src="/video-icon.jpeg" alt="Video" width={100} height={100} />
