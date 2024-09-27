@@ -23,7 +23,7 @@ const CreateCourseForm = (props : Props) => {
   const router = useRouter();
   const { toast } = useToast();
   
-  const { mutate: createChapters, isLoading } = useMutation({
+  const { mutate: createChapters } = useMutation({
     mutationFn: async ({ title, units }: Input) => {
       const response = await axios.post("/api/course/createChapters", {
         title,
@@ -159,7 +159,7 @@ const CreateCourseForm = (props : Props) => {
             </div>
             <Separator className="flex-[1]" />
           </div>
-          <Button disabled={isLoading} type="submit" className="bg-customGreen w-full mt-6" size="lg">
+          <Button type="submit" className="bg-customGreen w-full mt-6" size="lg">
             Lets Go!
           </Button>
         </form>
